@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
+    <string name="home_header"> Welcome to Seattle </string>
+    <string name="home_text">Versailles has a rich history!
+        \nThe Palace of Versailles is iconic and attracts numerous visitors from all corners of the globe.
+        \n
+        \nNaturally, you want to see as much as possible in a short space of time. But there\'s little point in hurrying your visit without taking the time to get the most out of your trip.
+        \n
+        \nHere are some tips to help you prepare for your visit so it will always remain an unforgettable experience. </string>
 </resources>

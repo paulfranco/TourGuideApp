@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/HomeLinearLayout">
+
+    <TextView
+        android:id="@+id/Header"
+        style="@style/HomeHeader"
+        android:text="category tittle" />
+
+    <LinearLayout
+        android:id="@+id/NavBar"
+        style="@style/NavBar">
+
+        <ImageView
+            android:id="@+id/ic_home"
+            style="@style/navBarIcons"
+            android:src="@drawable/ic_home" />
+
+        <ImageView
+            android:id="@+id/ic_hotel"
+            style="@style/navBarIcons"
+            android:src="@drawable/ic_hotel" />
+
+        <ImageView
+            android:id="@+id/ic_bar"
+            style="@style/navBarIcons"
+            android:src="@drawable/ic_local_bar" />
+
+        <ImageView
+            android:id="@+id/ic_dining"
+            style="@style/navBarIcons"
+            android:src="@drawable/ic_local_dining" />
+
+        <ImageView
+            android:id="@+id/ic_shopping"
+            style="@style/navBarIcons"
+            android:src="@drawable/ic_shopping_cart" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="true"
+        android:orientation="vertical"></ListView>
+</LinearLayout>
