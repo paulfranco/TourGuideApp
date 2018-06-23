@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         // Set a click listener on the Bar View
-        hotels.setOnClickListener(new View.OnClickListener() {
+        bars.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the Bar Category is clicked on.
             @Override
             public void onClick(View view) {
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         // Set a click listener on the Restaurant/Dining View
-        hotels.setOnClickListener(new View.OnClickListener() {
+        restaurants.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the Restaurant/Dining category is clicked on.
             @Override
             public void onClick(View view) {
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         // Set a click listener on the Shopping View
-        hotels.setOnClickListener(new View.OnClickListener() {
+        shopping.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the Shopping Category is clicked on.
             @Override
             public void onClick(View view) {

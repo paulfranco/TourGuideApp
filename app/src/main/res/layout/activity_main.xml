@@ -11,7 +11,8 @@
             android:id="@+id/HomeHeader"
             style="@style/HomeHeader"
             android:text="@string/home_header"
-            android:textSize="24sp" />
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:id="@+id/NavBar"
@@ -51,8 +52,9 @@
 
         <TextView
             android:id="@+id/HomeText"
-            style="@style/HomeText" />
-
+            style="@style/HomeText"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
 
 
     </LinearLayout>

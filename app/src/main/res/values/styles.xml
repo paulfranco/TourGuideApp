@@ -63,7 +63,7 @@
         <item name="android:scaleType">fitCenter</item>
     </style>
 
-    <!-- Item tittle style. -->
+    <!-- Item title style. -->
     <style name="ItemTittle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

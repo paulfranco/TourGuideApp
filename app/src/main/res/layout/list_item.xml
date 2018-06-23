@@ -7,16 +7,19 @@
     <TextView
         android:id="@+id/tittle_item"
         style="@style/ItemTittle"
-        android:text="Text one" />
+        android:text="@string/place_holder_text_one"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/photo_item"
         style="@style/HomePhoto"
-        android:src="@drawable/space_needle" />
+        android:src="@drawable/space_needle"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/text_item"
         style="@style/ItemText"
-        android:text="Text Two" />
+        android:text="@string/place_holder_text_two" />
 
 </LinearLayout>

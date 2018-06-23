@@ -3,10 +3,10 @@ package co.paulfran.paulfranco.tourguideapp;
 public class Location {
 
         // Tittle of the Location
-        private int mTittleItem;
+        private String mTittleItem;
 
         // Text of the Location
-        private int mTextItem;
+        private String mTextItem;
 
         // Drawable resource ID
         private int mImageResourceId;
@@ -17,7 +17,7 @@ public class Location {
          * @param Text is the corresponding text of the Location
          * @param image is drawable reference ID that corresponds to the Location
          * */
-        public Location(int Tittle, int Text, int imageResourceId) {
+        public Location(String Tittle, String Text, int imageResourceId) {
             mTittleItem = Tittle;
             mTextItem = Text;
             mImageResourceId = imageResourceId;
@@ -26,14 +26,14 @@ public class Location {
         /**
          * Get the tittle of the Location
          */
-        public int getLocationTittle() {
+        public String getLocationTittle() {
             return mTittleItem;
         }
 
         /**
          * Get the text of the Location
          */
-        public int getLocationText() {
+        public String getLocationText() {
             return mTextItem;
         }
 
